@@ -1,0 +1,1193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upadhyay Clinic | Dr. C.B. Upadhyay - Medical Clinic in Patna</title>
+    
+    <meta name="description" content="Visit Upadhyay Clinic in Patna for trusted, patient-centered healthcare by Dr. C.B. Upadhyay. General consultations, health checkups, and family healthcare.">
+    <meta name="keywords" content="Upadhyay Clinic, Dr C B Upadhyay, Clinic in Patna, Ashiana Digha Road, Doctor in Patna, Medical Clinic Patna">
+    
+    <meta property="og:title" content="Upadhyay Clinic | Dr. C.B. Upadhyay">
+    <meta property="og:description" content="Top-rated medical clinic in Patna offering premium healthcare and family medicine.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.upadhyayclinic.com">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MedicalClinic",
+      "name": "UPADHYAY CLINIC (DR C.B UPADHYAY)",
+      "alternateName": "उपाध्याय क्लिनिक",
+      "image": "https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1200&q=80",
+      "@id": "",
+      "url": "https://www.upadhyayclinic.com",
+      "telephone": "+919304558014",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "1st Floor, Naseeb Market, Ashiana - Digha Rd, Ram Nagari",
+        "addressLocality": "Patna",
+        "addressRegion": "Bihar",
+        "postalCode": "800025",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 25.6145223,
+        "longitude": 85.0818413
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "07:30",
+        "closes": "20:00"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5.0",
+        "reviewCount": "192"
+      }
+    }
+    </script>
+
+    <style>
+        /* CSS RESET & VARIABLES */
+        :root {
+            --primary: #0f4c81;
+            --primary-dark: #0a3356;
+            --secondary: #17a2b8;
+            --secondary-light: #e1f5f7;
+            --text-dark: #2d3748;
+            --text-light: #718096;
+            --bg-light: #f7fafc;
+            --white: #ffffff;
+            --transition: all 0.3s ease;
+            --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            color: var(--text-dark);
+            background-color: var(--white);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* PRELOADER */
+        #preloader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--white);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            transition: opacity 0.5s ease;
+        }
+        .spinner {
+            width: 50px;
+            height: 50px;
+            border: 5px solid var(--secondary-light);
+            border-top: 5px solid var(--primary);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* COMMON STYLES */
+        section {
+            padding: 80px 10%;
+        }
+        .section-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .section-header h2 {
+            font-size: 2.5rem;
+            color: var(--primary);
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        .section-header p {
+            color: var(--text-light);
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            border-radius: 30px;
+            font-weight: 500;
+            text-decoration: none;
+            transition: var(--transition);
+            cursor: pointer;
+            border: none;
+            font-size: 0.95rem;
+        }
+        .btn-primary {
+            background-color: var(--primary);
+            color: var(--white);
+        }
+        .btn-primary:hover {
+            background-color: var(--primary-dark);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow);
+        }
+        .btn-secondary {
+            background-color: var(--secondary);
+            color: var(--white);
+        }
+        .btn-secondary:hover {
+            background-color: #138496;
+            transform: translateY(-2px);
+            box-shadow: var(--shadow);
+        }
+
+        /* EMERGENCY TOP BAR */
+        .top-bar {
+            background-color: var(--primary-dark);
+            color: var(--white);
+            padding: 8px 10%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.85rem;
+        }
+        .top-bar-left span, .top-bar-right span {
+            margin-right: 20px;
+        }
+        .top-bar i {
+            margin-right: 5px;
+            color: var(--secondary);
+        }
+
+        /* HEADER & NAVIGATION */
+        header {
+            background-color: var(--white);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: var(--shadow);
+            padding: 15px 10%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+        }
+        .logo i {
+            font-size: 2.2rem;
+            color: var(--primary);
+        }
+        .logo-text h1 {
+            font-size: 1.4rem;
+            color: var(--primary);
+            font-weight: 700;
+            line-height: 1.1;
+        }
+        .logo-text span {
+            font-size: 0.75rem;
+            color: var(--text-light);
+            display: block;
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 25px;
+            align-items: center;
+        }
+        nav a {
+            text-decoration: none;
+            color: var(--text-dark);
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: var(--transition);
+        }
+        nav a:hover, nav a.active {
+            color: var(--primary);
+        }
+        .menu-toggle {
+            display: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: var(--primary);
+        }
+
+        /* HERO SECTION */
+        .hero {
+            background: linear-gradient(135deg, rgba(235,244,255,0.9) 0%, rgba(255,255,255,0.95) 100%), url('https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1920&q=80') no-repeat center center/cover;
+            min-height: 85vh;
+            display: flex;
+            align-items: center;
+            position: relative;
+        }
+        .hero-container {
+            display: grid;
+            grid-template-columns: 1.2fr 0.8fr;
+            gap: 40px;
+            width: 100%;
+            align-items: center;
+        }
+        .hero-content h2 {
+            font-size: 3.5rem;
+            color: var(--primary);
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 20px;
+        }
+        .hero-content p {
+            font-size: 1.2rem;
+            color: var(--text-light);
+            margin-bottom: 30px;
+            max-width: 600px;
+        }
+        .hero-buttons {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 40px;
+        }
+        .hero-badges {
+            display: flex;
+            gap: 30px;
+        }
+        .badge {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .badge i {
+            font-size: 2rem;
+            color: var(--secondary);
+        }
+        .badge-text h4 {
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+        .badge-text p {
+            font-size: 0.85rem;
+            margin-bottom: 0;
+        }
+        .hero-image img {
+            width: 100%;
+            border-radius: 20px;
+            box-shadow: var(--shadow-lg);
+            animation: float 6s ease-in-out infinite;
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-15px); }
+        }
+
+        /* ABOUT SECTION */
+        .about {
+            background-color: var(--white);
+            display: grid;
+            grid-template-columns: 1fr 1.2fr;
+            gap: 50px;
+            align-items: center;
+        }
+        .about-image img {
+            width: 100%;
+            border-radius: 20px;
+            box-shadow: var(--shadow-lg);
+        }
+        .about-content h3 {
+            color: var(--secondary);
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+        .about-content h2 {
+            font-size: 2.3rem;
+            color: var(--primary);
+            margin-bottom: 20px;
+        }
+        .about-content p {
+            color: var(--text-light);
+            margin-bottom: 20px;
+        }
+        .about-features {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-top: 25px;
+        }
+        .about-feature-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 500;
+        }
+        .about-feature-item i {
+            color: var(--secondary);
+        }
+
+        /* SERVICES SECTION */
+        .services {
+            background-color: var(--bg-light);
+        }
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        .service-card {
+            background: var(--white);
+            padding: 35px 25px;
+            border-radius: 15px;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            border-bottom: 4px solid transparent;
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-lg);
+            border-bottom: 4px solid var(--secondary);
+        }
+        .service-icon {
+            width: 60px;
+            height: 60px;
+            background-color: var(--secondary-light);
+            border-radius: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .service-icon i {
+            font-size: 1.8rem;
+            color: var(--primary);
+        }
+        .service-card h3 {
+            font-size: 1.3rem;
+            color: var(--primary);
+            margin-bottom: 12px;
+        }
+        .service-card p {
+            color: var(--text-light);
+            font-size: 0.95rem;
+        }
+
+        /* WHY CHOOSE US */
+        .why-choose {
+            background-color: var(--white);
+        }
+        .why-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 25px;
+        }
+        .why-card {
+            text-align: center;
+            padding: 30px 20px;
+            background: var(--bg-light);
+            border-radius: 15px;
+            transition: var(--transition);
+        }
+        .why-card:hover {
+            background: var(--white);
+            box-shadow: var(--shadow-lg);
+        }
+        .why-card i {
+            font-size: 2.5rem;
+            color: var(--secondary);
+            margin-bottom: 15px;
+        }
+        .why-card h3 {
+            font-size: 1.8rem;
+            color: var(--primary);
+            margin-bottom: 5px;
+        }
+        .why-card p {
+            color: var(--text-light);
+            font-size: 0.95rem;
+            font-weight: 500;
+        }
+
+        /* REVIEWS / TESTIMONIALS */
+        .reviews {
+            background-color: var(--bg-light);
+            overflow: hidden;
+        }
+        .reviews-container {
+            max-width: 800px;
+            margin: 0 auto;
+            position: relative;
+        }
+        .review-slider {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+        .review-slide {
+            min-width: 100%;
+            box-sizing: border-box;
+            background: var(--white);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: var(--shadow);
+            text-align: center;
+        }
+        .review-slide p {
+            font-style: italic;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+            color: var(--text-dark);
+        }
+        .stars {
+            color: #ffc107;
+            margin-bottom: 15px;
+        }
+        .reviewer-name {
+            font-weight: 600;
+            color: var(--primary);
+        }
+        .slider-dots {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 25px;
+        }
+        .dot {
+            width: 12px;
+            height: 12px;
+            background: #cbd5e0;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+        .dot.active {
+            background: var(--primary);
+            width: 25px;
+            border-radius: 10px;
+        }
+
+        /* APPOINTMENT BOOKING */
+        .booking {
+            background: linear-gradient(rgba(15, 76, 129, 0.95), rgba(10, 51, 86, 0.95)), url('https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&w=1920&q=80') center center/cover;
+            color: var(--white);
+        }
+        .booking .section-header h2 {
+            color: var(--white);
+        }
+        .booking .section-header p {
+            color: #e2e8f0;
+        }
+        .booking-form {
+            max-width: 700px;
+            margin: 0 auto;
+            background: var(--white);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: var(--shadow-lg);
+        }
+        .form-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        .form-group {
+            display: flex;
+            flex-direction: column;
+        }
+        .form-group.full-width {
+            grid-column: span 2;
+        }
+        .form-group label {
+            font-size: 0.9rem;
+            margin-bottom: 8px;
+            color: var(--text-dark);
+            font-weight: 500;
+        }
+        .form-group input, .form-group textarea {
+            padding: 12px 15px;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            font-size: 0.95rem;
+            outline: none;
+            transition: var(--transition);
+        }
+        .form-group input:focus, .form-group textarea:focus {
+            border-color: var(--secondary);
+            box-shadow: 0 0 0 3px var(--secondary-light);
+        }
+        .booking-form .btn {
+            width: 100%;
+            font-size: 1.1rem;
+            padding: 14px;
+        }
+
+        /* CONTACT & LOCATION */
+        .contact {
+            background-color: var(--white);
+        }
+        .contact-container {
+            display: grid;
+            grid-template-columns: 1fr 1.2fr;
+            gap: 50px;
+        }
+        .contact-info h3 {
+            font-size: 1.5rem;
+            color: var(--primary);
+            margin-bottom: 20px;
+        }
+        .contact-item {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 25px;
+            align-items: flex-start;
+        }
+        .contact-item i {
+            font-size: 1.3rem;
+            color: var(--secondary);
+            background: var(--secondary-light);
+            padding: 12px;
+            border-radius: 10px;
+        }
+        .contact-item h4 {
+            font-size: 1.1rem;
+            margin-bottom: 3px;
+        }
+        .contact-item p {
+            color: var(--text-light);
+            font-size: 0.95rem;
+        }
+        .map-wrapper {
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: var(--shadow-lg);
+            height: 100%;
+            min-height: 350px;
+        }
+        .map-wrapper iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        /* FAQ SECTION */
+        .faq {
+            background-color: var(--bg-light);
+        }
+        .faq-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .faq-item {
+            background: var(--white);
+            border-radius: 10px;
+            margin-bottom: 15px;
+            box-shadow: var(--shadow);
+            overflow: hidden;
+        }
+        .faq-question {
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            font-weight: 600;
+            color: var(--primary);
+            transition: var(--transition);
+        }
+        .faq-question:hover {
+            background-color: #fafafa;
+        }
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            padding: 0 20px;
+            color: var(--text-light);
+            transition: max-height 0.3s ease, padding 0.3s ease;
+            font-size: 0.95rem;
+        }
+        .faq-item.active .faq-answer {
+            max-height: 200px;
+            padding-bottom: 20px;
+        }
+        .faq-question i {
+            transition: var(--transition);
+        }
+        .faq-item.active .faq-question i {
+            transform: rotate(180deg);
+        }
+
+        /* FOOTER */
+        footer {
+            background: #07233c;
+            color: #a0aec0;
+            padding: 70px 10% 20px 10%;
+        }
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 1.3fr 0.7fr 1fr;
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+        .footer-col h3 {
+            color: var(--white);
+            font-size: 1.2rem;
+            margin-bottom: 25px;
+            position: relative;
+        }
+        .footer-col h3::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -8px;
+            width: 40px;
+            height: 2px;
+            background: var(--secondary);
+        }
+        .footer-about .logo i, .footer-about .logo h1 {
+            color: var(--white);
+        }
+        .footer-about p {
+            margin-top: 20px;
+            font-size: 0.9rem;
+        }
+        .footer-links ul {
+            list-style: none;
+        }
+        .footer-links li {
+            margin-bottom: 12px;
+        }
+        .footer-links a {
+            color: #a0aec0;
+            text-decoration: none;
+            transition: var(--transition);
+            font-size: 0.9rem;
+        }
+        .footer-links a:hover {
+            color: var(--white);
+            padding-left: 5px;
+        }
+        .social-icons {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .social-icons a {
+            width: 38px;
+            height: 38px;
+            background: #1a365d;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: var(--white);
+            transition: var(--transition);
+        }
+        .social-icons a:hover {
+            background: var(--secondary);
+            transform: translateY(-3px);
+        }
+        .footer-bottom {
+            border-top: 1px solid #1a365d;
+            padding-top: 20px;
+            text-align: center;
+            font-size: 0.85rem;
+        }
+
+        /* UTILITY FLOATING BUTTONS */
+        .floating-buttons {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            z-index: 2000;
+        }
+        .float-btn {
+            width: 55px;
+            height: 55px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: var(--white);
+            font-size: 1.5rem;
+            box-shadow: var(--shadow-lg);
+            text-decoration: none;
+            transition: var(--transition);
+            cursor: pointer;
+        }
+        .float-btn:hover {
+            transform: scale(1.1);
+        }
+        .float-whatsapp { background-color: #25d366; }
+        .float-call { background-color: #007bff; display: none;}
+        .scroll-top {
+            background-color: var(--primary);
+            display: none;
+        }
+
+        /* RESPONSIVE DESIGN */
+        @media (max-width: 992px) {
+            section { padding: 60px 5%; }
+            .top-bar, header { padding-left: 5%; padding-right: 5%; }
+            .hero-container, .about, .contact-container {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+            .hero-content h2 { font-size: 2.5rem; }
+            .hero-image { order: -1; max-width: 500px; margin: 0 auto; }
+            .footer-grid { grid-template-columns: 1fr 1fr; }
+        }
+
+        @media (max-width: 768px) {
+            .top-bar { display: none; }
+            .menu-toggle { display: block; }
+            nav {
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                background: var(--white);
+                box-shadow: var(--shadow-lg);
+                padding: 20px;
+                display: none;
+            }
+            nav.active { display: block; }
+            nav ul { flex-direction: column; gap: 15px; align-items: flex-start; }
+            .form-grid { grid-template-columns: 1fr; }
+            .form-group.full-width { grid-column: span 1; }
+            .footer-grid { grid-template-columns: 1fr; }
+            .float-call { display: flex; }
+            .hero-badges { flex-direction: column; gap: 15px; }
+        }
+    </style>
+</head>
+<body>
+
+    <div id="preloader">
+        <div class="spinner"></div>
+    </div>
+
+    <div class="top-bar">
+        <div class="top-bar-left">
+            <span><i class="fa-solid fa-clock"></i> Opens Daily at 7:30 AM</span>
+            <span><i class="fa-solid fa-location-dot"></i> Ashiana-Digha Road, Patna</span>
+        </div>
+        <div class="top-bar-right">
+            <span><i class="fa-solid fa-phone"></i> Emergency Call: +91 93045 58014</span>
+        </div>
+    </div>
+
+    <header>
+        <a href="#" class="logo">
+            <i class="fa-solid fa-heart-pulse"></i>
+            <div class="logo-text">
+                <h1>UPADHYAY CLINIC</h1>
+                <span>उपाध्याय क्लिनिक</span>
+            </div>
+        </a>
+        <div class="menu-toggle" id="mobile-menu-btn">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#booking" class="btn btn-secondary" style="color: white; padding: 8px 20px;">Book Appointment</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h2>Trusted Healthcare for You and Your Family</h2>
+                <p>Experience standard-setting, continuous medical diagnostics and treatment led by Dr. C.B. Upadhyay. Committed to providing premium care with deep integrity.</p>
+                <div class="hero-buttons">
+                    <a href="#booking" class="btn btn-primary"><i class="fa-regular fa-calendar-check"></i> Book Appointment</a>
+                    <a href="tel:+919304558014" class="btn btn-secondary"><i class="fa-solid fa-phone"></i> Call Now</a>
+                </div>
+                <div class="hero-badges">
+                    <div class="badge">
+                        <i class="fa-solid fa-star"></i>
+                        <div class="badge-text">
+                            <h4>5.0 Rating</h4>
+                            <p>192+ Verified Reviews</p>
+                        </div>
+                    </div>
+                    <div class="badge">
+                        <i class="fa-solid fa-user-shield"></i>
+                        <div class="badge-text">
+                            <h4>Trusted Care</h4>
+                            <p>Patna's Choice Medicine</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=600&q=80" alt="Modern Medical Clinic Setup">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-image">
+            <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=600&q=80" alt="Dr. C.B. Upadhyay Profile Placeholder">
+        </div>
+        <div class="about-content">
+            <h3>Expert Medical Professional</h3>
+            <h2>Meet Dr. C.B. Upadhyay</h2>
+            <p>Dr. C.B. Upadhyay has been an anchor of clinical support and trusted primary medical guidance for the community in Ram Nagari and across Patna. Known for absolute accuracy in diagnosis and an extremely caring approach towards patients of all age groups.</p>
+            <p>At Upadhyay Clinic, our core philosophy relies on delivering custom healthcare maps that emphasize modern diagnostics combined with reliable medical counseling.</p>
+            <div class="about-features">
+                <div class="about-feature-item"><i class="fa-solid fa-circle-check"></i> Highly Experienced Care</div>
+                <div class="about-feature-item"><i class="fa-solid fa-circle-check"></i> In-depth Diagnostics</div>
+                <div class="about-feature-item"><i class="fa-solid fa-circle-check"></i> Patient-First Philosophy</div>
+                <div class="about-feature-item"><i class="fa-solid fa-circle-check"></i> Affordable Medicals</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="section-header">
+            <h2>Our Medical Services</h2>
+            <p>Providing high-tier general clinical interventions and comprehensive medical strategies for long-term health.</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon"><i class="fa-solid fa-user-doctor"></i></div>
+                <h3>General Consultation</h3>
+                <p>Comprehensive standard physical checks, general system assessments, and accurate dynamic medical prescriptions.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+                <h3>Health Checkups</h3>
+                <p>Preventative vital metric evaluation to catch silent underlying chronic ailments securely over regular timelines.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"><i class="fa-solid fa-microscope"></i></div>
+                <h3>Diagnosis & Treatment</h3>
+                <p>Targeted medical investigation of critical pathology structures to define pinpoint recovery programs.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                <h3>Preventive Care</h3>
+                <p>Immunizations, robust health education planning, lifestyle assessments, and routine custom advice maps.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"><i class="fa-solid fa-arrows-rotate"></i></div>
+                <h3>Follow-up Consultation</h3>
+                <p>Sustained support frameworks designed to regularly track your long-term medical path and adjustments.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"><i class="fa-solid fa-people-roof"></i></div>
+                <h3>Family Healthcare</h3>
+                <p>Holistic healthcare services tailored to fit medical necessities spanning pediatric age metrics up to elderly care.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="why-choose">
+        <div class="section-header">
+            <h2>Why Choose Upadhyay Clinic</h2>
+            <p>Engineered around reliable professional support systems that place absolute clinical priority on patient comfort.</p>
+        </div>
+        <div class="why-grid">
+            <div class="why-card">
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <h3>5.0 Stars</h3>
+                <p>Top Rated Local Clinic</p>
+            </div>
+            <div class="why-card">
+                <i class="fa-solid fa-face-smile"></i>
+                <h3>192+</h3>
+                <p>Happy Patient Reviews</p>
+            </div>
+            <div class="why-card">
+                <i class="fa-solid fa-hand-holding-medical"></i>
+                <h3>Experienced</h3>
+                <p>Reliable Medical Hands</p>
+            </div>
+            <div class="why-card">
+                <i class="fa-solid fa-wallet"></i>
+                <h3>Affordable</h3>
+                <p>Honest Pricing Structure</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews">
+        <div class="section-header">
+            <h2>What Our Patients Say</h2>
+            <p>Read authentic feedback shared directly by our satisfied patients on Google Maps.</p>
+        </div>
+        <div class="reviews-container">
+            <div class="review-slider" id="reviewSlider">
+                <div class="review-slide">
+                    <p>"Very friendly environment both the doctor and staff make you feel comfortable. Highly recommended in Patna."</p>
+                    <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                    <div class="reviewer-name">Divya Solanki</div>
+                </div>
+                <div class="review-slide">
+                    <p>"Excellent medical care and best doctors and practitioners. Dr. Upadhyay is our family doctor and we are consulting with him for a long time. We are very happy with his knowledge."</p>
+                    <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                    <div class="reviewer-name">Venkatesh Choubey</div>
+                </div>
+                <div class="review-slide">
+                    <p>"Highly knowledgeable doctors with good experience. The diagnosis is highly reliable and billing is extremely fair."</p>
+                    <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                    <div class="reviewer-name">Google Local Guide Review</div>
+                </div>
+            </div>
+            <div class="slider-dots" id="sliderDots"></div>
+        </div>
+    </section>
+
+    <section id="booking" class="booking">
+        <div class="section-header">
+            <h2>Book An Appointment</h2>
+            <p>Secure your consultation time slot directly by filling out this digital scheduling inquiry.</p>
+        </div>
+        <form class="booking-form" onsubmit="handleFormSubmit(event)">
+            <div class="form-grid">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" required placeholder="Enter Full Name">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" required placeholder="Enter Phone Number">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" placeholder="Enter Email Address">
+                </div>
+                <div class="form-group">
+                    <label for="date">Preferred Date</label>
+                    <input type="date" id="date" required>
+                </div>
+                <div class="form-group full-width">
+                    <label for="message">Medical Message / Symptoms Note</label>
+                    <textarea id="message" rows="4" placeholder="Briefly specify symptoms or query..."></textarea>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-secondary">Submit Booking Request</button>
+        </form>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="section-header">
+            <h2>Contact & Directions</h2>
+            <p>Find us easily in Patna. Reach out directly via our click-to-call links below.</p>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Upadhyay Clinic Location</h3>
+                <div class="contact-item">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div>
+                        <h4>Clinic Address</h4>
+                        <p>1st Floor, Naseeb Market, Ashiana - Digha Rd, Ram Nagari, Patna, Bihar 800025, India</p>
+                        <p style="margin-top: 5px; font-weight: 500;">Plus Code: J37J+RP Patna, Bihar</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fa-solid fa-phone"></i>
+                    <div>
+                        <h4>Call to Book</h4>
+                        <p><a href="tel:+919304558014" style="text-decoration: none; color: var(--primary); font-weight: 600;">+91 93045 58014</a></p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fa-solid fa-door-open"></i>
+                    <div>
+                        <h4>Operational Hours</h4>
+                        <p>Opens at 7:30 AM Daily</p>
+                        <p>Mon - Sun (Call ahead to secure slots)</p>
+                    </div>
+                </div>
+                <a href="https://maps.google.com/?q=UPADHYAY+CLINIC+DR+C.B+UPADHYAY+Patna" target="_blank" class="btn btn-primary"><i class="fa-solid fa-diamond-turn-right"></i> Get Directions</a>
+            </div>
+            <div class="map-wrapper">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1m4!2s0x39ed5781af8c680b:0xf16d537633c02fe4!8m2!3d25.6145223!4d85.0818413!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed5781af8c680b%3A0xf16d537633c02fe4!2sUPADHYAY%20CLINIC%20(DR%20C.B%20UPADHYAY)!5e0!3m2!1sen!2sin!4v1717890000000!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq">
+        <div class="section-header">
+            <h2>Frequently Asked Questions</h2>
+            <p>Quick structural support responses to standard operational workflows.</p>
+        </div>
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question">What are the precise operation timings? <i class="fa-solid fa-chevron-down"></i></div>
+                <div class="faq-answer">Upadhyay Clinic opens daily starting at 7:30 AM. Closing times might flex contextually based on patient load. Calling ahead is highly recommended.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">How do I book a consultation? <i class="fa-solid fa-chevron-down"></i></div>
+                <div class="faq-answer">You can call +91 93045 58014 directly for an instant slot, or utilize our website's integrated booking request form.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Where is the clinic situated precisely? <i class="fa-solid fa-chevron-down"></i></div>
+                <div class="faq-answer">The clinic is positioned on the 1st Floor of Naseeb Market, located along the Ashiana - Digha Road in Ram Nagari, Patna, Bihar.</div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col footer-about">
+                <a href="#" class="logo" style="margin-bottom: 15px;">
+                    <i class="fa-solid fa-heart-pulse"></i>
+                    <div class="logo-text">
+                        <h1 style="color: white;">UPADHYAY CLINIC</h1>
+                        <span style="color: #a0aec0;">उपाध्याय क्लिनिक</span>
+                    </div>
+                </a>
+                <p>Providing trusted diagnostic clarity, general primary consultation, and structured long-term healthcare under Dr. C.B. Upadhyay's supervision.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-google"></i></a>
+                    <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="footer-col footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About Doctor</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#booking">Book Appointment</a></li>
+                    <li><a href="#contact">Contact & Map</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contact Info</h3>
+                <p style="color: white; margin-bottom: 10px;"><i class="fa-solid fa-location-dot" style="color: var(--secondary); margin-right: 8px;"></i> 1st Floor, Naseeb Market, Ashiana-Digha Rd, Patna, BR</p>
+                <p style="color: white; margin-bottom: 10px;"><i class="fa-solid fa-phone" style="color: var(--secondary); margin-right: 8px;"></i> +91 93045 58014</p>
+                <p style="color: white;"><i class="fa-solid fa-clock" style="color: var(--secondary); margin-right: 8px;"></i> Opens Daily: 7:30 AM</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Upadhyay Clinic. All Rights Reserved. Designed to Healthcare Standards.</p>
+        </div>
+    </footer>
+
+    <div class="floating-buttons">
+        <a href="https://wa.me/919304558014?text=Hello%20Upadhyay%20Clinic,%20I'm%20looking%20to%20book%20an%20appointment." target="_blank" class="float-btn float-whatsapp" title="WhatsApp Us"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="tel:+919304558014" class="float-btn float-call" title="Call Us Now"><i class="fa-solid fa-phone"></i></a>
+        <div class="float-btn scroll-top" id="scrollTopBtn" title="Scroll To Top"><i class="fa-solid fa-arrow-up"></i></div>
+    </div>
+
+    <script>
+        // 1. Hide Loading Preloader
+        window.addEventListener('load', () => {
+            const preloader = document.getElementById('preloader');
+            preloader.style.opacity = '0';
+            setTimeout(() => preloader.style.display = 'none', 500);
+        });
+
+        // 2. Responsive Mobile Toggle Navigation Menu
+        const menuBtn = document.getElementById('mobile-menu-btn');
+        const navMenu = document.getElementById('nav-menu');
+        menuBtn.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+
+        // Close mobile menu upon anchor routing click actions
+        document.querySelectorAll('#nav-menu a').forEach(link => {
+            link.addEventListener('click', () => navMenu.classList.remove('active'));
+        });
+
+        // 3. Simple Testimonials Reviews Slider Logic Carousel
+        const slider = document.getElementById('reviewSlider');
+        const slides = document.querySelectorAll('.review-slide');
+        const dotsContainer = document.getElementById('sliderDots');
+        let currentSlide = 0;
+
+        slides.forEach((_, idx) => {
+            const dot = document.createElement('div');
+            dot.classList.add('dot');
+            if(idx === 0) dot.classList.add('active');
+            dot.addEventListener('click', () => goToSlide(idx));
+            dotsContainer.appendChild(dot);
+        });
+
+        const dots = document.querySelectorAll('.dot');
+        function goToSlide(idx) {
+            slider.style.transform = `translateX(-${idx * 100}%)`;
+            dots[currentSlide].classList.remove('active');
+            dots[idx].classList.add('active');
+            currentSlide = idx;
+        }
+
+        // Automatic carousel rotation loops
+        setInterval(() => {
+            let next = (currentSlide + 1) % slides.length;
+            goToSlide(next);
+        }, 5000);
+
+        // 4. Accordion Actions Functional Logic for FAQ Section Grid
+        document.querySelectorAll('.faq-question').forEach(item => {
+            item.addEventListener('click', () => {
+                const parent = item.parentElement;
+                parent.classList.toggle('active');
+            });
+        });
+
+        // 5. Scroll Utility Button Visibility Controls
+        const scrollTopBtn = document.getElementById('scrollTopBtn');
+        window.addEventListener('scroll', () => {
+            if(window.scrollY > 400) {
+                scrollTopBtn.style.display = 'flex';
+            } else {
+                scrollTopBtn.style.display = 'none';
+            }
+        });
+        scrollTopBtn.addEventListener('click', () => {
+            window.scrollTo({top: 0, behavior: 'smooth'});
+        });
+
+        // 6. Form Submission Interceptor UI Response Handler Hook
+        function handleFormSubmit(e) {
+            e.preventDefault();
+            alert('Thank you! Your appointment request has been logged. Our staff will reach out to verify your slot shortly.');
+            e.target.reset();
+        }
+    </script>
+</body>
+</html>
